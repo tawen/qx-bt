@@ -1,0 +1,9 @@
+.qx-topbg{ height: 27px; background: #eee;  }
+.qx-topbg p{ color: #666; line-height: 27px; height: 27px; vertical-align: middle; }
+.qx-w{ width: 1000px; margin: 0 auto; }
+.qx-header{ height: 120px; background: #f7f7f7;  }
+.logo{ margin-top:28px; }
+
+.qx-menu{ height: 60px; background: #2b73b4; }
+.qx-menu ul{ list-style: none;    margin: 0; }
+.qx-menu ul li{ float: left; height: 60px; line-height: 60px; vertical-align: middle; color: #fff; font-size: 20px; width: 120px; background: url("../images/menu-bg.gif") repeat-y right top; text-align: center; }
