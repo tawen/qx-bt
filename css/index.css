@@ -198,3 +198,7 @@ ul {
 .fanganfont {
     line-height: 27px;
 }
+.qx-news{ height: 58px; overflow: hidden; }
+.qx-news-inner{ height: 174px; }
+.qx-menu ul li:hover{ background: #ef8b26; }
+.qx-menu ul li:hover a{ text-decoration: none; }

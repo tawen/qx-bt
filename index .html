@@ -73,7 +73,13 @@
         <div class="qx-w">
             <div class="row">
                 <div class="col-md-10">
-                    <p class="icon-news"><b>最新新闻：</b>2016中国（合肥）智能交通国际研讨会隆重开幕<span>2016/09/12</span></p>
+                <div class="qx-news">
+                <div class="qx-news-inner">
+                <p class="icon-news"><b>最新新闻：</b>2016中国（合肥）智能交通国际研讨会隆重开幕<span>2016/09/12</span></p>
+                <p class="icon-news"><b>最新新闻：</b>2016中国（合肥）智能交通国际研讨会隆重开幕<span>2016/09/12</span></p>
+                <p class="icon-news"><b>最新新闻：</b>2016中国（合肥）智能交通国际研讨会隆重开幕<span>2016/09/12</span></p>
+                </div>
+                </div>
                 </div>
                 <div class="col-md-2">
                     <p class="text-right"><a href="">更多></a></p>
@@ -242,6 +248,15 @@
     <script type="text/javascript">
     $(function() {
         $('.carousel').carousel();
+        var i = 0;
+         setInterval(function(){
+            if(i<2){
+                $(".qx-news-inner").animate({marginTop:-68*(i+1)},"slow","swing");
+                i++;
+            }else{
+                i=0;    
+            }
+         },1000)
     })
     </script>
 </body>
