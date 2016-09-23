@@ -174,8 +174,7 @@ ul {
 }
 
 .icon-news {
-    background: url("../images/icon-news.gif") no-repeat left center;
-    padding-left: 20px;
+    
     height: 58px;
     line-height: 58px;
     vertical-align: middle;
@@ -198,7 +197,10 @@ ul {
 .fanganfont {
     line-height: 27px;
 }
-.qx-news{ height: 58px; overflow: hidden; }
+.qx-news-animate{ height: 58px; overflow: hidden; }
+.qx-news h6{background: url("../images/icon-news.gif") no-repeat left center;
+    padding-left: 20px; font-weight: bold;}
+.qx-news h6,.qx-news-animate{height: 58px;  float: left; margin: 0; line-height: 58px; vertical-align: middle;}
 .qx-news-inner{ height: 174px; }
 .qx-menu ul li:hover{ background: #ef8b26; }
 .qx-menu ul li:hover a{ text-decoration: none; }
