@@ -86,13 +86,17 @@ ul {
 .qx-youshi p {
     text-indent: 2em;
 }
-
+.col-md-3{float: left}
+.qx-youshi .youshifont{ width: 227px;}
 .qx-youshi .youshifont p {
     text-indent: 0;
 }
 
 .youshipic {
     width: 100%;
+}
+.youshipic img {
+    width: 227px;
 }
 
 .youshifont {
